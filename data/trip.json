@@ -1,0 +1,1094 @@
+{
+  "meta": {
+    "title": "丹佛感恩节 · 5天4晚",
+    "dates": "2026.11.25 – 11.29",
+    "people": "7–8 人",
+    "airbnbQueried": "2026-11-03",
+    "bounds": [
+      [
+        39.55,
+        -105.75
+      ],
+      [
+        40.45,
+        -104.65
+      ]
+    ]
+  },
+  "days": [
+    {
+      "id": 1,
+      "date": "11/25 周三",
+      "title": "芝加哥 → 丹佛",
+      "color": "#7c3aed"
+    },
+    {
+      "id": 2,
+      "date": "11/26 周四 · 感恩节",
+      "title": "Boulder → 落基山",
+      "color": "#ea580c",
+      "startAt": "night1"
+    },
+    {
+      "id": 3,
+      "date": "11/27 周五",
+      "title": "落基山国家公园全天",
+      "color": "#059669",
+      "startAt": "estes-stay",
+      "returnTo": "estes-stay"
+    },
+    {
+      "id": 4,
+      "date": "11/28 周六",
+      "title": "Golden · 红岩剧场",
+      "color": "#dc2626",
+      "startAt": "estes-stay"
+    },
+    {
+      "id": 5,
+      "date": "11/29 周日",
+      "title": "丹佛市区 → 返程",
+      "color": "#2563eb",
+      "startAt": "night4"
+    }
+  ],
+  "regions": [
+    {
+      "name": "丹佛市区",
+      "days": "D1 · D5",
+      "lat": 39.745,
+      "lng": -104.99,
+      "side": "bottom"
+    },
+    {
+      "name": "DEN 机场",
+      "days": "D1 到达 · D5 返程",
+      "lat": 39.849,
+      "lng": -104.674,
+      "side": "bottom"
+    },
+    {
+      "name": "Boulder",
+      "days": "D2 上午",
+      "lat": 40.008,
+      "lng": -105.28,
+      "side": "left"
+    },
+    {
+      "name": "Estes Park · 落基山国家公园",
+      "days": "D2 – D3",
+      "lat": 40.385,
+      "lng": -105.58,
+      "side": "top"
+    },
+    {
+      "name": "Golden · 红岩剧场",
+      "days": "D4",
+      "lat": 39.71,
+      "lng": -105.215,
+      "side": "left"
+    }
+  ],
+  "events": [
+    {
+      "id": "ord-depart",
+      "day": 1,
+      "time": "傍晚",
+      "type": "flight",
+      "imp": 1,
+      "title": "芝加哥 O'Hare 起飞",
+      "short": "ORD → DEN，空中约 2 小时 40 分钟",
+      "lat": 41.9786,
+      "lng": -87.9048,
+      "leg": "none",
+      "desc": "从 O'Hare 飞丹佛。丹佛比芝加哥慢 1 小时，落地后手机时间会往回调一小时。",
+      "tips": [
+        "感恩节前一天是全年最忙的出行日之一，至少提前 2.5 小时到机场",
+        "8 个人尽量订同一班、一起值机"
+      ],
+      "links": [
+        {
+          "label": "O'Hare 机场官网",
+          "url": "https://www.flychicago.com/ohare"
+        }
+      ],
+      "nearby": []
+    },
+    {
+      "id": "den-arrive",
+      "day": 1,
+      "time": "约 21:00",
+      "type": "car",
+      "imp": 1,
+      "title": "降落 DEN · 取车",
+      "short": "坐租车 shuttle 去取两辆 SUV",
+      "lat": 39.8515,
+      "lng": -104.6745,
+      "leg": "flight",
+      "desc": "拿完行李后跟着 Rental Car 指示牌，到主航站楼 Level 5 外侧的 Island 4（以现场指示为准）坐各家租车公司的大巴，去场外取车。8 个人加行李，建议租两辆四驱或全驱 SUV。",
+      "tips": [
+        "11 月底可能下雪，科罗拉多下雪时会执行防滑法（Traction Law），要求四驱或合格的雪地轮胎",
+        "取车时看一下轮胎花纹，问清楚还车地址和油量规定"
+      ],
+      "links": [
+        {
+          "label": "丹佛机场官网",
+          "url": "https://www.flydenver.com/"
+        },
+        {
+          "label": "COtrip 实时路况",
+          "url": "https://www.cotrip.org/"
+        }
+      ],
+      "nearby": [
+        "den-airport"
+      ]
+    },
+    {
+      "id": "night1",
+      "day": 1,
+      "time": "约 22:00",
+      "type": "stay",
+      "imp": 1,
+      "title": "第 1 晚 · 入住丹佛市区",
+      "short": "RiNo / LoHi 一带，离机场约 35 分钟",
+      "lat": 39.764,
+      "lng": -104.979,
+      "leg": "drive",
+      "desc": "第一晚只是睡觉。住市区（RiNo / LoHi）第二天去 Boulder 更近；航班太晚的话也可以直接住机场附近，或者一口气开到 Boulder。三个区域的房源地图上都标了。",
+      "tips": [
+        "深夜到达，提前跟房东确认能自助入住（self check-in）",
+        "很多 Airbnb 要求至少住 2 晚，只住一晚能选的会少一些"
+      ],
+      "links": [],
+      "nearby": [
+        "denver-city",
+        "den-airport",
+        "boulder"
+      ]
+    },
+    {
+      "id": "chautauqua",
+      "day": 2,
+      "time": "09:30",
+      "type": "sight",
+      "imp": 2,
+      "title": "Chautauqua Park · 熨斗山",
+      "short": "Boulder 标志性的 Flatirons 山景，散步约 1 小时",
+      "lat": 39.9987,
+      "lng": -105.2818,
+      "leg": "drive",
+      "desc": "从丹佛开车约 35 分钟。入口的大草坪就是看熨斗山（Flatirons）的最佳位置，沿 Chautauqua Trail 往上走 20–30 分钟视野更开阔。",
+      "tips": [
+        "节假日停车位紧张，早点到",
+        "早上可能在零度以下，带手套和帽子"
+      ],
+      "links": [
+        {
+          "label": "Colorado Chautauqua 官网",
+          "url": "https://www.chautauqua.com/"
+        }
+      ],
+      "nearby": [
+        "boulder"
+      ]
+    },
+    {
+      "id": "pearl",
+      "day": 2,
+      "time": "11:00",
+      "type": "food",
+      "imp": 2,
+      "title": "Pearl Street · 早午饭 + 采购",
+      "short": "步行街逛一圈，顺便买感恩节食材",
+      "lat": 40.0181,
+      "lng": -105.2794,
+      "leg": "drive",
+      "desc": "Boulder 最热闹的步行街。感恩节当天不少店提早关门或不营业，晚上做饭的食材最好在这里或之前买齐。",
+      "tips": [
+        "超市感恩节当天一般只营业半天，出发前查一下营业时间"
+      ],
+      "links": [
+        {
+          "label": "Downtown Boulder",
+          "url": "https://www.boulderdowntown.com/"
+        }
+      ],
+      "nearby": [
+        "boulder"
+      ]
+    },
+    {
+      "id": "beaver",
+      "day": 2,
+      "time": "13:30",
+      "type": "park",
+      "imp": 1,
+      "title": "落基山国家公园 · Beaver Meadows 游客中心",
+      "short": "买门票、问路况；冬季 Trail Ridge Road 封闭",
+      "lat": 40.3663,
+      "lng": -105.5603,
+      "leg": "drive",
+      "desc": "Boulder 经 US-36 到 Estes Park 大约 1 小时。从东侧 Beaver Meadows 入口进园，11 月不用预约入园时段，按车付门票就行。游客中心可以问当天的路况和步道结冰情况。",
+      "tips": [
+        "Trail Ridge Road 冬季封闭，只能开到 Many Parks Curve 一带",
+        "门票按车收费（7 天有效），价格和非美国居民的收费规定以 NPS 官网为准"
+      ],
+      "links": [
+        {
+          "label": "落基山国家公园 NPS 官网",
+          "url": "https://www.nps.gov/romo/index.htm"
+        },
+        {
+          "label": "门票和年卡",
+          "url": "https://www.nps.gov/romo/planyourvisit/fees.htm"
+        }
+      ],
+      "nearby": [
+        "estes"
+      ]
+    },
+    {
+      "id": "moraine",
+      "day": 2,
+      "time": "14:15",
+      "type": "sight",
+      "imp": 2,
+      "title": "Moraine Park · 看麋鹿",
+      "short": "开阔的草甸，冬天常有麋鹿群",
+      "lat": 40.356,
+      "lng": -105.588,
+      "leg": "drive",
+      "desc": "沿 Bear Lake Road 往里开就会经过这片大草甸，下午和傍晚常能看到麋鹿（elk），路边有停车点。",
+      "tips": [
+        "和麋鹿保持至少 25 码（约 23 米）距离，不要下车靠近"
+      ],
+      "links": [
+        {
+          "label": "落基山国家公园 NPS 官网",
+          "url": "https://www.nps.gov/romo/index.htm"
+        }
+      ],
+      "nearby": [
+        "estes"
+      ]
+    },
+    {
+      "id": "sprague",
+      "day": 2,
+      "time": "15:00",
+      "type": "hike",
+      "imp": 2,
+      "title": "Sprague Lake 环湖",
+      "short": "约 1.4 km 平路，看大陆分水岭的倒影",
+      "lat": 40.32,
+      "lng": -105.6072,
+      "leg": "drive",
+      "desc": "环湖步道很平，所有人都能走。湖对面是大陆分水岭的雪山，天气好有倒影。11 月底日落大约 16:40，走完一圈正好看日落。",
+      "tips": [
+        "湖面可能结冰，不要走到冰面上"
+      ],
+      "links": [
+        {
+          "label": "落基山国家公园 NPS 官网",
+          "url": "https://www.nps.gov/romo/index.htm"
+        }
+      ],
+      "nearby": [
+        "estes"
+      ]
+    },
+    {
+      "id": "estes-stay",
+      "day": 2,
+      "time": "16:30",
+      "type": "stay",
+      "imp": 1,
+      "title": "入住 Estes Park Airbnb（2 晚）· 感恩节大餐",
+      "short": "11/26–11/28 两晚；晚上在房子里自己做感恩节大餐",
+      "lat": 40.368,
+      "lng": -105.534,
+      "leg": "drive",
+      "desc": "Estes Park 是落基山国家公园东门外的小镇，带热水浴缸和壁炉的大木屋很多。感恩节当天餐厅大多关门或订满，8 个人在房子里做一顿大餐最省心；不想做饭可以提前订 Stanley Hotel 的感恩节晚餐。",
+      "tips": [
+        "入住前在镇上户外店租好冰爪（microspikes），第二天徒步要用",
+        "山里夜间零下，车尽量停在车库或平地"
+      ],
+      "links": [
+        {
+          "label": "Visit Estes Park",
+          "url": "https://www.visitestespark.com/"
+        },
+        {
+          "label": "Stanley Hotel（感恩节晚餐）",
+          "url": "https://www.stanleyhotel.com/"
+        }
+      ],
+      "nearby": [
+        "estes"
+      ]
+    },
+    {
+      "id": "bear-lake",
+      "day": 3,
+      "time": "08:30",
+      "type": "hike",
+      "imp": 1,
+      "title": "Bear Lake 步道口",
+      "short": "冬季经典徒步起点，海拔约 2900 m",
+      "lat": 40.3127,
+      "lng": -105.6457,
+      "leg": "drive",
+      "desc": "从 Estes Park 开车约 30 分钟。冬天没有接驳车，直接开到 Bear Lake 停车场，早上车位一般够。先绕 Bear Lake 走一小圈热身，再往 Nymph → Dream → Emerald 走。",
+      "tips": [
+        "一定要穿冰爪，压实的雪路很滑",
+        "海拔高，走慢一点、多喝水"
+      ],
+      "links": [
+        {
+          "label": "落基山国家公园 NPS 官网",
+          "url": "https://www.nps.gov/romo/index.htm"
+        }
+      ],
+      "nearby": [
+        "estes"
+      ]
+    },
+    {
+      "id": "nymph",
+      "day": 3,
+      "time": "09:00",
+      "type": "hike",
+      "imp": 3,
+      "title": "Nymph Lake",
+      "short": "第一站，离步道口约 0.8 km",
+      "lat": 40.3095,
+      "lng": -105.6516,
+      "leg": "walk",
+      "desc": "离步道口约 0.8 km、爬升约 70 m 的小湖，冬天通常结冰覆雪。",
+      "tips": [],
+      "links": [],
+      "nearby": [
+        "estes"
+      ]
+    },
+    {
+      "id": "dream",
+      "day": 3,
+      "time": "09:40",
+      "type": "hike",
+      "imp": 2,
+      "title": "Dream Lake",
+      "short": "最出片的一站，正对 Hallett Peak",
+      "lat": 40.3094,
+      "lng": -105.6599,
+      "leg": "walk",
+      "desc": "离步道口约 1.8 km（单程）。湖面结冰后能看到风吹出来的冰纹，背后是 Hallett Peak。这里风很大，注意保暖。",
+      "tips": [
+        "不确定冰层厚度时不要走上湖面"
+      ],
+      "links": [],
+      "nearby": [
+        "estes"
+      ]
+    },
+    {
+      "id": "emerald",
+      "day": 3,
+      "time": "10:15",
+      "type": "hike",
+      "imp": 3,
+      "title": "Emerald Lake",
+      "short": "终点，往返全程约 5.8 km",
+      "lat": 40.3096,
+      "lng": -105.6685,
+      "leg": "walk",
+      "desc": "从 Dream Lake 再走约 1 km，被 Hallett Peak 和 Flattop Mountain 环绕。原路返回 Bear Lake 停车场，全程往返约 5.8 km、爬升约 185 m，慢慢走 3 小时左右。",
+      "tips": [
+        "有人体力不够的话，可以在 Dream Lake 折返"
+      ],
+      "links": [],
+      "nearby": [
+        "estes"
+      ]
+    },
+    {
+      "id": "estes-town",
+      "day": 3,
+      "time": "13:30",
+      "type": "food",
+      "imp": 2,
+      "title": "Estes Park 镇中心 · 午饭 + Riverwalk",
+      "short": "回镇上吃饭、逛河边步道",
+      "lat": 40.3762,
+      "lng": -105.5196,
+      "leg": "drive",
+      "legFrom": "bear-lake",
+      "desc": "从 Bear Lake 开回镇上约 30 分钟。午饭后沿河边步道（Riverwalk）和 Elkhorn Ave 逛街，或者回 Airbnb 泡热水浴缸休息，等傍晚的游行。",
+      "tips": [],
+      "links": [
+        {
+          "label": "Visit Estes Park",
+          "url": "https://www.visitestespark.com/"
+        }
+      ],
+      "nearby": [
+        "estes"
+      ]
+    },
+    {
+      "id": "catch-glow",
+      "day": 3,
+      "time": "17:30",
+      "type": "event",
+      "imp": 1,
+      "title": "Catch the Glow 圣诞游行",
+      "short": "感恩节次日的灯光游行，免费",
+      "lat": 40.3771,
+      "lng": -105.5232,
+      "leg": "walk",
+      "desc": "Estes Park 每年感恩节第二天的圣诞灯光游行，沿 Elkhorn Ave 进行，大约 1 小时。官方活动页写的是 11/27 17:30–18:30，也有一个页面写 28 号，出发前再确认一次。",
+      "tips": [
+        "提前 20–30 分钟占位置",
+        "晚上很冷，带上暖宝宝"
+      ],
+      "links": [
+        {
+          "label": "Catch the Glow 活动页",
+          "url": "https://www.visitestespark.com/event/catch-the-glow-parade/16780/"
+        }
+      ],
+      "nearby": [
+        "estes"
+      ]
+    },
+    {
+      "id": "stanley",
+      "day": 3,
+      "time": "19:30",
+      "type": "sight",
+      "imp": 2,
+      "title": "Stanley Hotel 夜游",
+      "short": "《闪灵》的原型酒店，有夜间鬼故事导览",
+      "lat": 40.383,
+      "lng": -105.5189,
+      "leg": "drive",
+      "desc": "斯蒂芬·金在这里住过之后写了《闪灵》。酒店有付费的历史导览和夜间鬼故事导览，要提前在官网预订；也可以只去大堂和酒吧看看。",
+      "tips": [],
+      "links": [
+        {
+          "label": "Stanley Hotel 官网",
+          "url": "https://www.stanleyhotel.com/"
+        }
+      ],
+      "nearby": [
+        "estes"
+      ]
+    },
+    {
+      "id": "golden-town",
+      "day": 4,
+      "time": "11:00",
+      "type": "food",
+      "imp": 2,
+      "title": "Golden 小镇 · 午饭",
+      "short": "老西部风格小镇，Washington Ave 拱门",
+      "lat": 39.7556,
+      "lng": -105.2213,
+      "leg": "drive",
+      "desc": "退房后从 Estes Park 经 Lyons、Boulder、CO-93 开到 Golden，约 1 小时 30 分钟。Washington Ave 上有标志性的 “Howdy Folks!” 拱门，在这里吃午饭、逛街。Coors 啤酒厂也在镇上，想参观的话先确认开放时间并预约。",
+      "tips": [],
+      "links": [
+        {
+          "label": "Visit Golden",
+          "url": "https://www.visitgolden.com/"
+        }
+      ],
+      "nearby": [
+        "golden"
+      ]
+    },
+    {
+      "id": "lookout",
+      "day": 4,
+      "time": "13:00",
+      "type": "sight",
+      "imp": 2,
+      "title": "Lookout Mountain · Buffalo Bill 墓",
+      "short": "俯瞰丹佛平原的观景点",
+      "lat": 39.7322,
+      "lng": -105.2387,
+      "leg": "drive",
+      "desc": "从镇上沿 Lariat Loop 盘山路开上去约 20 分钟，山顶有 Buffalo Bill 博物馆和墓地，观景台能看到 Golden 和丹佛市区。",
+      "tips": [
+        "盘山路弯多，下雪后谨慎驾驶，必要时跳过这一站"
+      ],
+      "links": [
+        {
+          "label": "Buffalo Bill 博物馆",
+          "url": "https://www.buffalobill.org/"
+        }
+      ],
+      "nearby": [
+        "golden"
+      ]
+    },
+    {
+      "id": "dino",
+      "day": 4,
+      "time": "14:15",
+      "type": "sight",
+      "imp": 3,
+      "title": "恐龙岭 Dinosaur Ridge",
+      "short": "步道边就能看到恐龙脚印化石",
+      "lat": 39.6932,
+      "lng": -105.1937,
+      "leg": "drive",
+      "desc": "就在红岩剧场北边几公里。先到游客中心看一下，沿 Dinosaur Ridge 的步道能看到真实的恐龙脚印和骨骼化石。",
+      "tips": [],
+      "links": [
+        {
+          "label": "Dinosaur Ridge 官网",
+          "url": "https://www.dinoridge.org/"
+        }
+      ],
+      "nearby": [
+        "redrocks"
+      ]
+    },
+    {
+      "id": "redrocks",
+      "day": 4,
+      "time": "15:00",
+      "type": "amphi",
+      "imp": 1,
+      "title": "红岩剧场 Red Rocks（白天）",
+      "short": "没有演出时免费开放，在看台顶上看日落",
+      "lat": 39.6655,
+      "lng": -105.2055,
+      "leg": "drive",
+      "desc": "11/27–29 查到的资料里没有正式演出，所以白天来看剧场本身：爬看台台阶、逛游客中心里的 Performers' Hall of Fame，再走 Trading Post Trail（约 2.3 km 环线）。日落大约 16:40，在看台顶部看最好。",
+      "tips": [
+        "有演出的日子剧场下午会关闭，出发前看一下官网日历",
+        "台阶很多，海拔约 1970 m，爬的时候慢一点"
+      ],
+      "links": [
+        {
+          "label": "Red Rocks 官网",
+          "url": "https://www.redrocksonline.com/"
+        },
+        {
+          "label": "演出日历",
+          "url": "https://www.redrocksonline.com/events/"
+        }
+      ],
+      "nearby": [
+        "redrocks",
+        "golden"
+      ]
+    },
+    {
+      "id": "christmas-color",
+      "day": 4,
+      "time": "18:00",
+      "type": "event",
+      "imp": 2,
+      "title": "Christmas in Color 灯光秀",
+      "short": "开车穿行的圣诞灯光秀",
+      "lat": 39.67,
+      "lng": -105.201,
+      "leg": "drive",
+      "desc": "在红岩剧场园区里举办的开车穿行灯光秀，车排队慢慢开过去，不用下车。资料显示从 11/27 开始，具体日期、入口和票务以官网为准。",
+      "tips": [],
+      "links": [
+        {
+          "label": "Christmas in Color 官网",
+          "url": "https://www.christmasincolor.com/"
+        }
+      ],
+      "nearby": [
+        "redrocks"
+      ]
+    },
+    {
+      "id": "night4",
+      "day": 4,
+      "time": "20:00",
+      "type": "stay",
+      "imp": 1,
+      "title": "第 4 晚 · 入住 Golden / Lakewood",
+      "short": "离红岩剧场 15–20 分钟",
+      "lat": 39.73,
+      "lng": -105.152,
+      "leg": "drive",
+      "desc": "Golden 镇上和 Lakewood（红岩剧场与丹佛之间）都有适合 8 人的大房子，第二天去丹佛市区和机场都顺路。地图上这个点只是示意，具体看周围的房源。",
+      "tips": [],
+      "links": [],
+      "nearby": [
+        "redrocks",
+        "golden"
+      ]
+    },
+    {
+      "id": "meowwolf",
+      "day": 5,
+      "time": "10:00",
+      "type": "sight",
+      "imp": 2,
+      "title": "Meow Wolf Convergence Station",
+      "short": "沉浸式艺术展，一群人可以逛 2–3 小时",
+      "lat": 39.7425,
+      "lng": -105.0113,
+      "leg": "drive",
+      "desc": "四层楼的沉浸式互动艺术空间，大家可以分头探索再集合。门票按时段售卖，节假日周末建议提前在官网买。",
+      "tips": [],
+      "links": [
+        {
+          "label": "Meow Wolf Denver",
+          "url": "https://meowwolf.com/visit/denver"
+        }
+      ],
+      "nearby": [
+        "denver-city"
+      ]
+    },
+    {
+      "id": "union",
+      "day": 5,
+      "time": "12:30",
+      "type": "food",
+      "imp": 2,
+      "title": "Union Station · 午饭",
+      "short": "老火车站改造的美食大厅",
+      "lat": 39.7528,
+      "lng": -105.0002,
+      "leg": "drive",
+      "desc": "丹佛地标性的老火车站，大厅里有好几家餐厅和咖啡店，一群人可以各点各的。",
+      "tips": [],
+      "links": [
+        {
+          "label": "Union Station 官网",
+          "url": "https://unionstationindenver.com/"
+        }
+      ],
+      "nearby": [
+        "denver-city"
+      ]
+    },
+    {
+      "id": "larimer",
+      "day": 5,
+      "time": "13:45",
+      "type": "sight",
+      "imp": 3,
+      "title": "Larimer Square",
+      "short": "丹佛最老的街区，街顶挂着灯串",
+      "lat": 39.7479,
+      "lng": -104.9989,
+      "leg": "walk",
+      "desc": "从 Union Station 步行约 10 分钟，维多利亚时期的老建筑和街顶灯串很好拍。",
+      "tips": [],
+      "links": [
+        {
+          "label": "Larimer Square 官网",
+          "url": "https://larimersquare.com/"
+        }
+      ],
+      "nearby": [
+        "denver-city"
+      ]
+    },
+    {
+      "id": "rino",
+      "day": 5,
+      "time": "14:30",
+      "type": "sight",
+      "imp": 2,
+      "title": "RiNo 涂鸦街区",
+      "short": "满街的大型壁画和咖啡店",
+      "lat": 39.762,
+      "lng": -104.9832,
+      "leg": "drive",
+      "desc": "River North 艺术区，Larimer St 沿线和小巷里到处是大型壁画，适合最后拍一组合照。离机场约 30 分钟。",
+      "tips": [],
+      "links": [
+        {
+          "label": "RiNo Art District",
+          "url": "https://rinoartdistrict.org/"
+        }
+      ],
+      "nearby": [
+        "denver-city"
+      ]
+    },
+    {
+      "id": "den-depart",
+      "day": 5,
+      "time": "16:00",
+      "type": "flight",
+      "imp": 1,
+      "title": "还车 · DEN 返程",
+      "short": "感恩节后的周日，至少提前 3 小时到机场",
+      "lat": 39.847,
+      "lng": -104.6738,
+      "leg": "drive",
+      "desc": "先去租车公司的还车点还车，再坐 shuttle 回航站楼。感恩节后的周日是全美最忙的出行日，安检可能排很久。",
+      "tips": [
+        "按租车合同的油量规定加油再还车",
+        "安检排队时间可以在机场官网查"
+      ],
+      "links": [
+        {
+          "label": "丹佛机场官网",
+          "url": "https://www.flydenver.com/"
+        }
+      ],
+      "nearby": [
+        "den-airport"
+      ]
+    }
+  ],
+  "airbnbAreas": [
+    {
+      "id": "den-airport",
+      "name": "DEN 机场附近",
+      "forNights": "第 1 晚备选（只睡觉）",
+      "checkin": "2026-11-25",
+      "checkout": "2026-11-26",
+      "nights": 1,
+      "searchQuery": "Denver International Airport, Denver, CO",
+      "listings": [
+        [
+          "1535770882194223411",
+          "Home in Commerce City",
+          "5BR Group Home Near DIA | Sleeps 10 | Free Parking",
+          39.87478,
+          -104.77836,
+          "$500",
+          "5.0 (53)",
+          "5 bedrooms, 6 beds, 4.5 baths",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1535770882194223411/original/1dd5773a-5bd1-4f8d-b2b6-02d1fa7967d6.jpeg"
+        ],
+        [
+          "1234982926915788625",
+          "Home in Denver",
+          "Family Luxury Farmhouse Home",
+          39.7707,
+          -104.7486,
+          "$747",
+          "4.94 (54)",
+          "4 bedrooms, 5 beds, 2.5 baths",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1234982926915788625/original/5de31c5f-64d6-4c6f-8755-2c8e109ce719.jpeg"
+        ],
+        [
+          "1684306673653928632",
+          "Home in Aurora",
+          "Denver Cityscape Oasis",
+          39.74421,
+          -104.75794,
+          "$433",
+          "4.87 (15)",
+          "4 bedrooms, 4 beds, 4 baths",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1684306673653928632/original/44f95592-a965-465b-8ac7-f8f9cf91f607.jpeg"
+        ]
+      ]
+    },
+    {
+      "id": "denver-city",
+      "name": "丹佛市区 RiNo / LoHi",
+      "forNights": "第 1 晚推荐 · 离 D5 景点近",
+      "checkin": "2026-11-25",
+      "checkout": "2026-11-26",
+      "nights": 1,
+      "searchQuery": "RiNo, Denver, CO",
+      "listings": [
+        [
+          "1005745721365975398",
+          "Home in Denver",
+          "2 houses in 1! Center of RiNo. 100% walkable",
+          39.76748,
+          -104.97211,
+          "$477",
+          "4.98 (127)",
+          "6 bedrooms, 7 beds, 3 baths",
+          "https://a0.muscache.com/im/pictures/d2ac3844-7668-46ad-9487-5f766544d550.jpg"
+        ],
+        [
+          "50270167",
+          "Condo in Denver",
+          "Central LoHi Clubhouse | Skyline View | Sleeps 12!",
+          39.7582,
+          -105.0156,
+          "$549",
+          "4.84 (194)",
+          "3 bedrooms, 7 beds, 2.5 baths",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-50270167/original/334ca146-eca9-4312-b838-86b46379c907.jpeg"
+        ],
+        [
+          "45302598",
+          "Condo in Denver",
+          "4BR Larimer Loft · Near Coors Field · Free Parking",
+          39.75554,
+          -104.99225,
+          "$1,313",
+          "4.95 (179)",
+          "4 bedrooms, 10 beds, 2 baths",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-45302598/original/b02fdc0b-2941-4b2b-90ba-ff4e63547541.jpeg"
+        ],
+        [
+          "966665561547400368",
+          "Home in Denver",
+          "Massive Pop Art Pad! Sleeps 17 10 Mins to Downtown",
+          39.7939,
+          -105.0303,
+          "$753",
+          "4.89 (140)",
+          "6 bedrooms, 9 beds, 3 baths",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-966665561547400368/original/0e97577d-7371-4a7a-a7de-d33e0eee62ea.jpeg"
+        ]
+      ]
+    },
+    {
+      "id": "boulder",
+      "name": "Boulder",
+      "forNights": "第 1 晚备选 · 离 Chautauqua 近",
+      "checkin": "2026-11-25",
+      "checkout": "2026-11-26",
+      "nights": 1,
+      "searchQuery": "Boulder, CO",
+      "listings": [
+        [
+          "1764934769259243910",
+          "Home in Boulder",
+          "Gorgeous home 5 minutes from Wonderland Lake",
+          40.05259,
+          -105.28229,
+          "$750",
+          "New",
+          "4 bedrooms, 4 beds, 3 baths",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1764934769259243910/original/5bfb6805-5839-4b14-a9c7-1b3c70210daa.jpeg"
+        ],
+        [
+          "1792943162789553861",
+          "Home in Boulder",
+          "Sunny dog-friendly home near CU, Pearl St+Sundance",
+          40.01498,
+          -105.2359,
+          "$1,626",
+          "5.0 (3)",
+          "4 bedrooms, 4 beds, 3 baths",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1792943162789553861/original/fdd77666-7ec4-423d-a26a-62837e54cadd.jpeg"
+        ],
+        [
+          "44450428",
+          "Farm stay in Longmont",
+          "Boulder Farm Arcade · 5 acre | Open Air | Arcade",
+          40.0993,
+          -105.20582,
+          "$718",
+          "4.99 (248)",
+          "4 bedrooms, 4 beds, 2 baths",
+          "https://a0.muscache.com/im/pictures/6de44f7d-c605-4b71-908d-27c2035f33d6.jpg"
+        ]
+      ]
+    },
+    {
+      "id": "estes",
+      "name": "Estes Park",
+      "forNights": "第 2–3 晚（11/26–11/28）",
+      "checkin": "2026-11-26",
+      "checkout": "2026-11-28",
+      "nights": 2,
+      "searchQuery": "Estes Park, CO",
+      "listings": [
+        [
+          "730492645733153585",
+          "Farm stay in Estes Park",
+          "Majestic Estes Park Cabin | Firepit, Poker & More",
+          40.35878,
+          -105.54701,
+          "$985",
+          "4.71 (90)",
+          "4 bedrooms, 9 beds, 4 baths",
+          "https://a0.muscache.com/im/pictures/941462d9-dba6-4759-9bf8-3edcacc5246e.jpg"
+        ],
+        [
+          "28025184",
+          "Home in Estes Park",
+          "Spacious 4BDR home by RMNP · Perfect for families!",
+          40.3826,
+          -105.5261,
+          "$1,530",
+          "4.93 (147)",
+          "4 bedrooms, 7 beds, 2 baths",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-28025184/original/da274bc6-1110-4471-8f3d-157746058c4b.jpeg"
+        ],
+        [
+          "34710956",
+          "Townhouse in Estes Park",
+          "Mtn Getaway-HotTub, Game room, WIFI, amazing views",
+          40.35424,
+          -105.54162,
+          "$1,342",
+          "4.9 (210)",
+          "3 bedrooms, 7 beds, 2.5 baths",
+          "https://a0.muscache.com/im/pictures/2d12b5cd-aae5-4f9f-a910-fc0dfa9f855c.jpg"
+        ],
+        [
+          "22599501",
+          "Cabin in Estes Park",
+          "River & Mountain Views with Hot Tub & 4 Bdrm, #256",
+          40.3726,
+          -105.5262,
+          "$2,430",
+          "4.89 (141)",
+          "4 bedrooms, 10 beds, 2.5 baths",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-22599501/original/731edbfb-26a5-40ef-97f1-add3df30ca59.jpeg"
+        ],
+        [
+          "19093144",
+          "Home in Estes Park",
+          "Wildlife + Mountain Views | Near RMNP + Downtown",
+          40.3521,
+          -105.5238,
+          "$1,279",
+          "4.86 (456)",
+          "3 bedrooms, 4 beds, 2.5 baths",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-19093144/original/c426486d-581f-4b12-bc48-e025d999b011.png"
+        ],
+        [
+          "12793707",
+          "Condo in Estes Park",
+          "Backs to Open Space | Rock & Pines | Near Trails",
+          40.3851,
+          -105.5131,
+          "$743",
+          "4.83 (109)",
+          "3 bedrooms, 5 beds, 2.5 baths",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-12793707/original/2ba64a7c-dc4e-490d-b7aa-5aefb6d4ae1a.jpeg"
+        ]
+      ]
+    },
+    {
+      "id": "golden",
+      "name": "Golden 镇上",
+      "forNights": "第 4 晚备选（11/28）",
+      "checkin": "2026-11-28",
+      "checkout": "2026-11-29",
+      "nights": 1,
+      "searchQuery": "Golden, CO",
+      "listings": [
+        [
+          "45978649",
+          "Home in Golden",
+          "Golden Brewmaster House – Historic Stay",
+          39.76011,
+          -105.2185,
+          "$858",
+          "4.87 (247)",
+          "4 bedrooms, 8 beds, 2 baths",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-45978649/original/503b2604-035a-4a81-a9fb-0f08de6aa091.jpeg"
+        ],
+        [
+          "1587376866462917749",
+          "Home in Golden",
+          "Walk to Downtown Golden · Views",
+          39.76544,
+          -105.22839,
+          "$1,210",
+          "4.78 (9)",
+          "4 bedrooms, 5 beds, 2.5 baths",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1587376866462917749/original/8f32a8ea-0e41-4631-8ba0-4a86223a42e6.jpeg"
+        ],
+        [
+          "1092919880755948516",
+          "Home in Golden",
+          "Rocky Mtn Getaway-10 min to Golden, 15 min to DEN!",
+          39.75115,
+          -105.14681,
+          "$390",
+          "4.93 (135)",
+          "4 bedrooms, 6 beds, 3 baths",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA5MjkxOTg4MDc1NTk0ODUxNg%3D%3D/original/838865f9-7472-4e64-8b64-bbd69edbc6a5.jpeg"
+        ],
+        [
+          "48170994",
+          "Home in Wheat Ridge",
+          "Hot Tub, Game Room · Red Rocks",
+          39.76188,
+          -105.12849,
+          "$1,064",
+          "4.84 (134)",
+          "6 bedrooms, 8 beds, 3 baths",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-48170994/original/c5d1494f-d637-4c5f-8584-68f08828d59f.png"
+        ]
+      ]
+    },
+    {
+      "id": "redrocks",
+      "name": "红岩剧场周边 Lakewood / Morrison",
+      "forNights": "第 4 晚推荐（11/28）",
+      "checkin": "2026-11-28",
+      "checkout": "2026-11-29",
+      "nights": 1,
+      "searchQuery": "Morrison, CO",
+      "listings": [
+        [
+          "35008615",
+          "Home in Golden",
+          "Red Rocks Golden Gateway to the Rockies King Beds",
+          39.738,
+          -105.1447,
+          "$490",
+          "4.88 (540)",
+          "4 bedrooms, 6 beds, 2 baths",
+          "https://a0.muscache.com/im/pictures/808e1ce8-b156-4933-a96f-1ab1dea1f793.jpg"
+        ],
+        [
+          "1506788866855401702",
+          "Home in Golden",
+          "Golden Retreat near Red Rocks w/ Spa & Giant Chess",
+          39.73594,
+          -105.14139,
+          "$900",
+          "4.98 (48)",
+          "5 bedrooms, 11 beds, 3 baths",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1506788866855401702/original/d740aa03-7299-4d70-856b-e55d61ad3eaf.jpeg"
+        ],
+        [
+          "908022605014570510",
+          "Home in Lakewood",
+          "Feeling at Home in Lakewood",
+          39.68787,
+          -105.08707,
+          "$390",
+          "4.87 (86)",
+          "5 bedrooms, 8 beds, 2 baths",
+          "https://a0.muscache.com/im/pictures/airflow/Hosting-908022605014570510/original/f1f60cb0-295c-40f0-9018-364554adbe83.jpg"
+        ],
+        [
+          "724515283310601140",
+          "Home in Morrison",
+          "Red Rocks Retreat ~ Hot Tub, Game Room, Views",
+          39.56301,
+          -105.25375,
+          "$1,435",
+          "5.0 (113)",
+          "4 bedrooms, 7 beds, 2 baths",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-724515283310601140/original/cf05046e-d6fe-4b71-a358-870932494242.jpeg"
+        ],
+        [
+          "821026632885339906",
+          "Home in Lakewood",
+          "O'Kane Park Retreat",
+          39.72487,
+          -105.07478,
+          "$699",
+          "4.93 (116)",
+          "4 bedrooms, 7 beds, 2 baths",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-821026632885339906/original/a33f104f-9f0e-4886-a5cc-b48354e23b12.jpeg"
+        ]
+      ]
+    }
+  ]
+}

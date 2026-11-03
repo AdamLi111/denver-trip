@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>丹佛感恩节行程</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="map"></div>
+
+  <aside id="panel">
+    <button id="panel-toggle" aria-label="展开/收起行程">行程</button>
+    <header>
+      <div class="eyebrow">2026 感恩节</div>
+      <h1>丹佛 · 5 天 4 晚</h1>
+      <div class="meta" id="meta"></div>
+      <nav class="daytabs" id="daytabs"></nav>
+    </header>
+    <div class="scroll" id="itinerary"></div>
+  </aside>
+
+  <div id="hud"><span id="hud-tier"></span><span id="hud-hint"></span></div>
+  <button id="reset" title="回到全景">全景</button>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="data/bundle.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
