@@ -16,16 +16,33 @@
       <div class="eyebrow">2026 感恩节</div>
       <h1>丹佛 · 5 天 4 晚</h1>
       <div class="meta" id="meta"></div>
+      <div class="status" id="status"></div>
       <nav class="daytabs" id="daytabs"></nav>
     </header>
     <div class="scroll" id="itinerary"></div>
   </aside>
 
+  <div id="toolbar">
+    <div class="tb-item">
+      <button class="tb-btn primary" data-menu="menu-edit">✏️ 编辑行程</button>
+      <div class="menu" id="menu-edit" hidden></div>
+    </div>
+    <div class="tb-item">
+      <button class="tb-btn" data-menu="menu-filter">☰ 显示</button>
+      <div class="menu" id="menu-filter" hidden></div>
+    </div>
+    <button class="tb-btn" id="btn-play" title="重新播放路线动画"><span class="i-play">▶ 播放路线</span><span class="i-stop">■ 停止</span></button>
+  </div>
+
   <div id="hud"><span id="hud-tier"></span><span id="hud-hint"></span></div>
   <button id="reset" title="回到全景">全景</button>
 
+  <div id="modal" hidden></div>
+  <div id="pickbar" hidden>📌 点击地图选择位置 <button type="button">取消</button></div>
+  <div id="toast" role="status" hidden></div>
+
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="data/bundle.js"></script>
-  <script src="app.js"></script>
+  <script type="module" src="app.js"></script>
 </body>
 </html>

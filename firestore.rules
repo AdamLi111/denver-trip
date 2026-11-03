@@ -1,0 +1,54 @@
+rules_version = '2';
+
+// Anyone with the link can view. Only people whose email has a document in `editors`
+// (added by hand in the Firebase console) can add/delete places or set the final route.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() {
+      return request.auth != null && request.auth.token.email_verified == true;
+    }
+    function email() {
+      return request.auth.token.email.lower();
+    }
+    function isEditor() {
+      return signedIn() && exists(/databases/$(database)/documents/editors/$(email()));
+    }
+    function validPlace(d) {
+      return d.keys().hasOnly(['type', 'name', 'url', 'note', 'price', 'day', 'lat', 'lng', 'createdBy', 'createdByName', 'createdAt'])
+        && d.keys().hasAll(['type', 'name', 'lat', 'lng', 'createdBy', 'createdAt'])
+        && d.type in ['airbnb', 'sight', 'restaurant']
+        && d.name is string && d.name.size() > 0 && d.name.size() <= 120
+        && d.lat is number && d.lat > 36.9 && d.lat < 41.1
+        && d.lng is number && d.lng > -109.1 && d.lng < -102
+        && (!('url' in d) || (d.url is string && d.url.size() <= 500 && (d.url == '' || d.url.matches('https?://.+'))))
+        && (!('note' in d) || (d.note is string && d.note.size() <= 500))
+        && (!('price' in d) || (d.price is string && d.price.size() <= 40))
+        && (!('day' in d) || (d.day is int && d.day >= 0 && d.day <= 5))
+        && (!('createdByName' in d) || (d.createdByName is string && d.createdByName.size() <= 100));
+    }
+
+    // One document per allowed editor; document ID = their Google email in lowercase.
+    match /editors/{editorEmail} {
+      allow get: if signedIn() && email() == editorEmail;
+      allow list, write: if false;
+    }
+
+    match /places/{placeId} {
+      allow read: if true;
+      allow create: if isEditor()
+        && validPlace(request.resource.data)
+        && request.resource.data.createdBy == email()
+        && request.resource.data.createdAt == request.time;
+      allow delete: if isEditor();
+    }
+
+    match /plans/{planId} {
+      allow read: if true;
+      allow create, update: if isEditor() && planId == 'final'
+        && request.resource.data.updatedBy == email()
+        && request.resource.data.legs is list && request.resource.data.legs.size() <= 100;
+      allow delete: if isEditor() && planId == 'final';
+    }
+  }
+}
