@@ -574,6 +574,7 @@ function placesHTML() {
 }
 
 function staysHTML() {
+  if (!T.airbnbAreas.length) return '';
   return `<section class="stays"><h2>🏠 Airbnb 房源（${bnbMarkers.length} 套）</h2>
     <div class="note">都是 ${T.meta.airbnbQueried} 按对应日期、8 位成人在 Airbnb 搜到的整套房源。价格为当时显示的总价，会变动。</div>
     ${T.airbnbAreas.map(a => `<div class="area-card" data-area="${a.id}"><div><b>${esc(a.name)}</b><small>${esc(a.forNights)} · ${nightsLabel(a)}</small></div><span class="count">${a.listings.length} 套 →</span></div>`).join('')}
@@ -585,7 +586,7 @@ const legendHTML = () => `<section class="legend"><h2>图例</h2>
     <div class="row"><span class="line walk"></span>徒步 / 步行</div>
     <div class="row"><span class="line flight"></span>航班</div>
     <div class="row"><span class="dash-dot"></span>虚线边框 = 大家添加的地点</div>
-    <p>缩小只看路线和主要节点；放大到一个区域会显示每站的时间、说明和附近每套 Airbnb 的价格。鼠标悬停预览，点击打开详情和链接。右上角「☰ 显示」可以选择显示哪些内容。</p>
+    <p>缩小只看路线和主要节点；放大到一个区域会显示每站的时间和说明。鼠标悬停预览，点击打开详情和链接。右上角「☰ 显示」可以选择显示哪些内容。</p>
   </section>`;
 
 function finalizeHTML() {
