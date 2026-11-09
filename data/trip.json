@@ -24,7 +24,7 @@
     {
       "id": 2,
       "date": "11/26 周四 · 感恩节",
-      "title": "Boulder → 落基山 → 回家过感恩节",
+      "title": "Golden · 红岩剧场 → 回家过感恩节",
       "color": "#ea580c",
       "startAt": "home",
       "returnTo": "home"
@@ -32,7 +32,7 @@
     {
       "id": 3,
       "date": "11/27 周五",
-      "title": "落基山国家公园全天",
+      "title": "落基山国家公园全天 · 圣诞游行",
       "color": "#059669",
       "startAt": "home",
       "returnTo": "home"
@@ -40,7 +40,7 @@
     {
       "id": 4,
       "date": "11/28 周六",
-      "title": "Golden · 红岩剧场",
+      "title": "Boulder → 恐龙岭 → 圣诞灯光秀",
       "color": "#dc2626",
       "startAt": "home",
       "returnTo": "home"
@@ -63,21 +63,21 @@
     },
     {
       "name": "Boulder",
-      "days": "D2 上午",
+      "days": "D4 上午",
       "lat": 40.008,
       "lng": -105.28,
       "side": "left"
     },
     {
       "name": "Estes Park · 落基山国家公园",
-      "days": "D2 – D3",
+      "days": "D3",
       "lat": 40.385,
       "lng": -105.58,
       "side": "top"
     },
     {
       "name": "Golden · 红岩剧场",
-      "days": "D4",
+      "days": "D2 · D4 傍晚",
       "lat": 39.71,
       "lng": -105.215,
       "side": "left"
@@ -165,7 +165,7 @@
       "tips": [
         "深夜到达，提前跟房东确认自助入住方式和停车位置",
         "晚上不要把行李和贵重物品留在车里，能停车库就停车库",
-        "感恩节当天超市会提早关门，食材最好 11/26 上午在 Boulder 买好"
+        "感恩节当天超市可能不开或提早关门（往年有的 King Soopers 只开到下午 4 点），食材最好 D1 晚上回来的路上买，或者提前下单预约取货"
       ],
       "links": [
         {
@@ -176,56 +176,84 @@
       "nearby": []
     },
     {
-      "id": "chautauqua",
+      "id": "golden-town",
       "day": 2,
-      "time": "09:30",
+      "time": "11:00",
       "type": "sight",
       "imp": 2,
-      "title": "Chautauqua Park · 熨斗山",
-      "short": "Boulder 标志性的 Flatirons 山景，散步约 1 小时",
-      "lat": 39.9987,
-      "lng": -105.2818,
+      "title": "Golden 小镇 · 散步",
+      "short": "老西部风格小镇，感恩节当天比较安静",
+      "lat": 39.7556,
+      "lng": -105.2213,
       "leg": "drive",
-      "desc": "从丹佛开车约 35 分钟。入口的大草坪就是看熨斗山（Flatirons）的最佳位置，沿 Chautauqua Trail 往上走 20–30 分钟视野更开阔。",
+      "desc": "从 Arvada 开过来 20 分钟左右，上午可以睡个懒觉。感恩节当天镇上很多店和餐厅不开门，以散步拍照为主：Washington Ave 上的 “Howdy Folks!” 拱门、Clear Creek 河边步道。午饭提前查好哪家营业，或者在家吃完再出门。",
       "tips": [
-        "节假日停车位紧张，早点到",
-        "早上可能在零度以下，带手套和帽子"
+        "感恩节营业的餐厅要提前确认，最好订位"
       ],
       "links": [
         {
-          "label": "Colorado Chautauqua 官网",
-          "url": "https://www.chautauqua.com/"
+          "label": "Visit Golden",
+          "url": "https://www.visitgolden.com/"
         }
       ],
       "nearby": []
     },
     {
-      "id": "pearl",
+      "id": "lookout",
       "day": 2,
-      "time": "11:00",
-      "type": "food",
+      "time": "13:00",
+      "type": "sight",
       "imp": 2,
-      "title": "Pearl Street · 早午饭 + 采购",
-      "short": "步行街逛一圈，顺便买感恩节食材",
-      "lat": 40.0181,
-      "lng": -105.2794,
+      "title": "Lookout Mountain · Buffalo Bill 墓",
+      "short": "俯瞰丹佛平原的观景点",
+      "lat": 39.7322,
+      "lng": -105.2387,
       "leg": "drive",
-      "desc": "Boulder 最热闹的步行街。感恩节当天不少店提早关门或不营业，晚上做饭的食材最好在这里或之前买齐。",
+      "desc": "从镇上沿 Lariat Loop 盘山路开上去约 20 分钟，观景台能看到 Golden 和丹佛市区。Buffalo Bill 博物馆感恩节不开，但墓地和观景台免费，照常可以去。",
       "tips": [
-        "超市感恩节当天一般只营业半天，出发前查一下营业时间"
+        "盘山路弯多，下雪后谨慎驾驶，必要时跳过这一站"
       ],
       "links": [
         {
-          "label": "Downtown Boulder",
-          "url": "https://www.boulderdowntown.com/"
+          "label": "Buffalo Bill 博物馆",
+          "url": "https://www.buffalobill.org/"
+        }
+      ],
+      "nearby": []
+    },
+    {
+      "id": "redrocks",
+      "day": 2,
+      "time": "14:30",
+      "type": "amphi",
+      "imp": 1,
+      "title": "红岩剧场 Red Rocks · 看日落",
+      "short": "感恩节没有演出，剧场全天开放，在看台顶上看日落",
+      "lat": 39.6655,
+      "lng": -105.2055,
+      "leg": "drive",
+      "desc": "Red Rocks 官网日历上 11/26 没有演出，剧场和公园从日出前 1 小时开到日落后 1 小时，免费。可以爬看台台阶、走 Trading Post Trail（约 2.3 km 环线）。日落大约 16:40，在看台顶部看最好。看完开回 Arvada 约 30 分钟，回家做感恩节大餐。",
+      "tips": [
+        "11/27 起每晚有 Christmas in Color，有活动的日子剧场下午 2 点左右就会关闭，所以白天去只能选 26 号",
+        "Trading Post 商店感恩节关门，游客中心官网写着在施工、暂停开放",
+        "台阶很多，海拔约 1970 m，爬的时候慢一点"
+      ],
+      "links": [
+        {
+          "label": "Red Rocks 官网",
+          "url": "https://www.redrocksonline.com/"
+        },
+        {
+          "label": "演出日历",
+          "url": "https://www.redrocksonline.com/events/"
         }
       ],
       "nearby": []
     },
     {
       "id": "beaver",
-      "day": 2,
-      "time": "13:30",
+      "day": 3,
+      "time": "08:30",
       "type": "park",
       "imp": 1,
       "title": "落基山国家公园 · Beaver Meadows 游客中心",
@@ -233,9 +261,9 @@
       "lat": 40.3663,
       "lng": -105.5603,
       "leg": "drive",
-      "desc": "Boulder 经 US-36 到 Estes Park 大约 1 小时。从东侧 Beaver Meadows 入口进园，11 月不用预约入园时段，按车付门票就行。游客中心可以问当天的路况和步道结冰情况。",
+      "desc": "从 Arvada 开过来约 1 小时 30 分钟，建议 7:00 左右出发。从东侧 Beaver Meadows 入口进园，11 月不用预约入园时段，按车付门票就行。游客中心可以问当天的路况和步道结冰情况。",
       "tips": [
-        "在 Estes Park 镇上户外店租好冰爪（microspikes），明天徒步要用",
+        "冰爪（microspikes）最好提前买好或租好，Estes Park 镇上的户外店早上不一定开门",
         "Trail Ridge Road 冬季封闭，只能开到 Many Parks Curve 一带",
         "门票按车收费（7 天有效），价格和非美国居民的收费规定以 NPS 官网为准"
       ],
@@ -252,55 +280,9 @@
       "nearby": []
     },
     {
-      "id": "moraine",
-      "day": 2,
-      "time": "14:15",
-      "type": "sight",
-      "imp": 2,
-      "title": "Moraine Park · 看麋鹿",
-      "short": "开阔的草甸，冬天常有麋鹿群",
-      "lat": 40.356,
-      "lng": -105.588,
-      "leg": "drive",
-      "desc": "沿 Bear Lake Road 往里开就会经过这片大草甸，下午和傍晚常能看到麋鹿（elk），路边有停车点。",
-      "tips": [
-        "和麋鹿保持至少 25 码（约 23 米）距离，不要下车靠近"
-      ],
-      "links": [
-        {
-          "label": "落基山国家公园 NPS 官网",
-          "url": "https://www.nps.gov/romo/index.htm"
-        }
-      ],
-      "nearby": []
-    },
-    {
-      "id": "sprague",
-      "day": 2,
-      "time": "15:00",
-      "type": "hike",
-      "imp": 2,
-      "title": "Sprague Lake 环湖",
-      "short": "约 1.4 km 平路，看大陆分水岭的倒影",
-      "lat": 40.32,
-      "lng": -105.6072,
-      "leg": "drive",
-      "desc": "环湖步道很平，所有人都能走。湖对面是大陆分水岭的雪山，天气好有倒影。11 月底日落大约 16:40，走完一圈正好看日落。 看完日落开车回 Arvada 约 1 小时 50 分钟，回家做感恩节大餐。",
-      "tips": [
-        "湖面可能结冰，不要走到冰面上"
-      ],
-      "links": [
-        {
-          "label": "落基山国家公园 NPS 官网",
-          "url": "https://www.nps.gov/romo/index.htm"
-        }
-      ],
-      "nearby": []
-    },
-    {
       "id": "bear-lake",
       "day": 3,
-      "time": "09:00",
+      "time": "09:15",
       "type": "hike",
       "imp": 1,
       "title": "Bear Lake 步道口",
@@ -308,7 +290,7 @@
       "lat": 40.3127,
       "lng": -105.6457,
       "leg": "drive",
-      "desc": "从 Arvada 开过来大约 2 小时，建议 6:45 左右出发。冬天没有接驳车，直接开到 Bear Lake 停车场。先绕 Bear Lake 走一小圈热身，再往 Nymph → Dream → Emerald 走。",
+      "desc": "从游客中心开过来约 30 分钟。冬天没有接驳车，直接开到 Bear Lake 停车场。先绕 Bear Lake 走一小圈热身，再往 Nymph → Dream → Emerald 走。",
       "tips": [
         "一定要穿冰爪，压实的雪路很滑",
         "海拔高，走慢一点、多喝水"
@@ -324,7 +306,7 @@
     {
       "id": "nymph",
       "day": 3,
-      "time": "09:30",
+      "time": "09:45",
       "type": "hike",
       "imp": 3,
       "title": "Nymph Lake",
@@ -340,7 +322,7 @@
     {
       "id": "dream",
       "day": 3,
-      "time": "10:10",
+      "time": "10:20",
       "type": "hike",
       "imp": 2,
       "title": "Dream Lake",
@@ -358,7 +340,7 @@
     {
       "id": "emerald",
       "day": 3,
-      "time": "10:45",
+      "time": "10:55",
       "type": "hike",
       "imp": 3,
       "title": "Emerald Lake",
@@ -374,9 +356,56 @@
       "nearby": []
     },
     {
+      "id": "sprague",
+      "day": 3,
+      "time": "12:30",
+      "type": "hike",
+      "imp": 2,
+      "title": "Sprague Lake 环湖",
+      "short": "约 1.4 km 平路，看大陆分水岭的倒影",
+      "lat": 40.32,
+      "lng": -105.6072,
+      "leg": "drive",
+      "desc": "从 Bear Lake 停车场往回开约 10 分钟。环湖步道很平，所有人都能走，徒步完腿累正好走这种平路。湖对面是大陆分水岭的雪山，天气好有倒影。",
+      "tips": [
+        "湖面可能结冰，不要走到冰面上"
+      ],
+      "links": [
+        {
+          "label": "落基山国家公园 NPS 官网",
+          "url": "https://www.nps.gov/romo/index.htm"
+        }
+      ],
+      "nearby": [],
+      "legFrom": "bear-lake"
+    },
+    {
+      "id": "moraine",
+      "day": 3,
+      "time": "13:15",
+      "type": "sight",
+      "imp": 2,
+      "title": "Moraine Park · 看麋鹿",
+      "short": "开阔的草甸，冬天常有麋鹿群",
+      "lat": 40.356,
+      "lng": -105.588,
+      "leg": "drive",
+      "desc": "从 Sprague Lake 开回镇上的路上会经过这片大草甸，冬天常有麋鹿（elk）群，路边有停车点。麋鹿早晚最活跃，中午不一定碰得到；Estes Park 镇上也经常能看到。",
+      "tips": [
+        "和麋鹿保持至少 25 码（约 23 米）距离，不要下车靠近"
+      ],
+      "links": [
+        {
+          "label": "落基山国家公园 NPS 官网",
+          "url": "https://www.nps.gov/romo/index.htm"
+        }
+      ],
+      "nearby": []
+    },
+    {
       "id": "estes-town",
       "day": 3,
-      "time": "13:30",
+      "time": "13:45",
       "type": "food",
       "imp": 2,
       "title": "Estes Park 镇中心 · 午饭 + Riverwalk",
@@ -384,13 +413,33 @@
       "lat": 40.3762,
       "lng": -105.5196,
       "leg": "drive",
-      "legFrom": "bear-lake",
-      "desc": "从 Bear Lake 开回镇上约 30 分钟。午饭后沿河边步道（Riverwalk）和 Elkhorn Ave 逛街，或者回 Airbnb 泡热水浴缸休息，等傍晚的游行。",
+      "desc": "出园开到镇上约 15 分钟。午饭后沿河边步道（Riverwalk）和 Elkhorn Ave 逛街、买纪念品。",
       "tips": [],
       "links": [
         {
           "label": "Visit Estes Park",
           "url": "https://www.visitestespark.com/"
+        }
+      ],
+      "nearby": []
+    },
+    {
+      "id": "stanley",
+      "day": 3,
+      "time": "15:30",
+      "type": "sight",
+      "imp": 2,
+      "title": "Stanley Hotel",
+      "short": "《闪灵》的原型酒店，白天有历史导览",
+      "lat": 40.383,
+      "lng": -105.5189,
+      "leg": "drive",
+      "desc": "斯蒂芬·金在这里住过之后写了《闪灵》。酒店有付费的历史导览，要提前在官网预订（时段和价格以官网为准）；也可以只去大堂和酒吧看看。离镇中心开车约 5 分钟，看完回镇上等游行。",
+      "tips": [],
+      "links": [
+        {
+          "label": "Stanley Hotel 官网",
+          "url": "https://www.stanleyhotel.com/"
         }
       ],
       "nearby": []
@@ -405,10 +454,10 @@
       "short": "感恩节次日的灯光游行，免费",
       "lat": 40.3771,
       "lng": -105.5232,
-      "leg": "walk",
-      "desc": "Estes Park 每年感恩节第二天的圣诞灯光游行，沿 Elkhorn Ave 进行，大约 1 小时。官方活动页写的是 11/27 17:30–18:30，也有一个页面写 28 号，出发前再确认一次。",
+      "leg": "drive",
+      "desc": "Estes Park 每年感恩节第二天的圣诞灯光游行，沿 Elkhorn Ave 进行，大约 1 小时。官方活动页写的是 11/27 17:30–18:30，也有一个页面写 28 号，出发前再确认一次。看完开回 Arvada 约 1 小时 25 分钟，晚上 8 点左右到家。",
       "tips": [
-        "提前 20–30 分钟占位置",
+        "提前 20–30 分钟占位置，游行当晚镇上停车很难",
         "晚上很冷，带上暖宝宝"
       ],
       "links": [
@@ -420,66 +469,46 @@
       "nearby": []
     },
     {
-      "id": "stanley",
-      "day": 3,
-      "time": "19:30",
+      "id": "chautauqua",
+      "day": 4,
+      "time": "09:30",
       "type": "sight",
       "imp": 2,
-      "title": "Stanley Hotel 夜游",
-      "short": "《闪灵》的原型酒店，有夜间鬼故事导览",
-      "lat": 40.383,
-      "lng": -105.5189,
+      "title": "Chautauqua Park · 熨斗山",
+      "short": "Boulder 标志性的 Flatirons 山景，散步约 1 小时",
+      "lat": 39.9987,
+      "lng": -105.2818,
       "leg": "drive",
-      "desc": "斯蒂芬·金在这里住过之后写了《闪灵》。酒店有付费的历史导览和夜间鬼故事导览，要提前在官网预订；也可以只去大堂和酒吧看看。 结束后开车回 Arvada 约 1 小时 25 分钟；太累的话可以跳过这一站早点回去。",
-      "tips": [],
+      "desc": "从 Arvada 开过来约 30 分钟。入口的大草坪就是看熨斗山（Flatirons）的最佳位置，沿 Chautauqua Trail 往上走 20–30 分钟视野更开阔。今天时间宽裕，体力好的可以继续走到 Royal Arch（往返约 5.5 km、爬升约 430 m，比较陡）。",
+      "tips": [
+        "周末停车位紧张，早点到",
+        "早上可能在零度以下，带手套和帽子"
+      ],
       "links": [
         {
-          "label": "Stanley Hotel 官网",
-          "url": "https://www.stanleyhotel.com/"
+          "label": "Colorado Chautauqua 官网",
+          "url": "https://www.chautauqua.com/"
         }
       ],
       "nearby": []
     },
     {
-      "id": "golden-town",
+      "id": "pearl",
       "day": 4,
-      "time": "11:00",
+      "time": "12:30",
       "type": "food",
       "imp": 2,
-      "title": "Golden 小镇 · 午饭",
-      "short": "老西部风格小镇，Washington Ave 拱门",
-      "lat": 39.7556,
-      "lng": -105.2213,
+      "title": "Pearl Street · 午饭 + 逛街",
+      "short": "Boulder 最热闹的步行街",
+      "lat": 40.0181,
+      "lng": -105.2794,
       "leg": "drive",
-      "desc": "从 Arvada 开过来只要 20 分钟左右，上午可以睡个懒觉。Washington Ave 上有标志性的 “Howdy Folks!” 拱门，在这里吃午饭、逛街。Coors 啤酒厂也在镇上，想参观的话先确认开放时间并预约。",
+      "desc": "Boulder 最热闹的步行街，餐厅、咖啡店和小店很多，一群人可以分头逛再集合。",
       "tips": [],
       "links": [
         {
-          "label": "Visit Golden",
-          "url": "https://www.visitgolden.com/"
-        }
-      ],
-      "nearby": []
-    },
-    {
-      "id": "lookout",
-      "day": 4,
-      "time": "13:00",
-      "type": "sight",
-      "imp": 2,
-      "title": "Lookout Mountain · Buffalo Bill 墓",
-      "short": "俯瞰丹佛平原的观景点",
-      "lat": 39.7322,
-      "lng": -105.2387,
-      "leg": "drive",
-      "desc": "从镇上沿 Lariat Loop 盘山路开上去约 20 分钟，山顶有 Buffalo Bill 博物馆和墓地，观景台能看到 Golden 和丹佛市区。",
-      "tips": [
-        "盘山路弯多，下雪后谨慎驾驶，必要时跳过这一站"
-      ],
-      "links": [
-        {
-          "label": "Buffalo Bill 博物馆",
-          "url": "https://www.buffalobill.org/"
+          "label": "Downtown Boulder",
+          "url": "https://www.boulderdowntown.com/"
         }
       ],
       "nearby": []
@@ -487,7 +516,7 @@
     {
       "id": "dino",
       "day": 4,
-      "time": "14:15",
+      "time": "14:30",
       "type": "sight",
       "imp": 3,
       "title": "恐龙岭 Dinosaur Ridge",
@@ -495,7 +524,7 @@
       "lat": 39.6932,
       "lng": -105.1937,
       "leg": "drive",
-      "desc": "就在红岩剧场北边几公里。先到游客中心看一下，沿 Dinosaur Ridge 的步道能看到真实的恐龙脚印和骨骼化石。",
+      "desc": "从 Boulder 开过来约 40 分钟，就在红岩剧场北边几公里。游客中心冬季每天 9:00–16:00，有巴士导览（大约 9:30–15:00 发车），沿 Dinosaur Ridge 的步道能看到真实的恐龙脚印和骨骼化石。",
       "tips": [],
       "links": [
         {
@@ -506,37 +535,9 @@
       "nearby": []
     },
     {
-      "id": "redrocks",
-      "day": 4,
-      "time": "15:00",
-      "type": "amphi",
-      "imp": 1,
-      "title": "红岩剧场 Red Rocks（白天）",
-      "short": "没有演出时免费开放，在看台顶上看日落",
-      "lat": 39.6655,
-      "lng": -105.2055,
-      "leg": "drive",
-      "desc": "11/27–29 查到的资料里没有正式演出，所以白天来看剧场本身：爬看台台阶、逛游客中心里的 Performers' Hall of Fame，再走 Trading Post Trail（约 2.3 km 环线）。日落大约 16:40，在看台顶部看最好。",
-      "tips": [
-        "有演出的日子剧场下午会关闭，出发前看一下官网日历",
-        "台阶很多，海拔约 1970 m，爬的时候慢一点"
-      ],
-      "links": [
-        {
-          "label": "Red Rocks 官网",
-          "url": "https://www.redrocksonline.com/"
-        },
-        {
-          "label": "演出日历",
-          "url": "https://www.redrocksonline.com/events/"
-        }
-      ],
-      "nearby": []
-    },
-    {
       "id": "christmas-color",
       "day": 4,
-      "time": "18:00",
+      "time": "17:30",
       "type": "event",
       "imp": 2,
       "title": "Christmas in Color 灯光秀",
@@ -544,7 +545,7 @@
       "lat": 39.67,
       "lng": -105.201,
       "leg": "drive",
-      "desc": "在红岩剧场园区里举办的开车穿行灯光秀，车排队慢慢开过去，不用下车。资料显示从 11/27 开始，具体日期、入口和票务以官网为准。 看完开回 Arvada 约 30 分钟。",
+      "desc": "在红岩剧场园区里举办的开车穿行灯光秀，车排队慢慢开过去，不用下车。Red Rocks 官网日历上 11/27 起每晚 17:30 开始，门票和入口以官网为准。开始前可以在旁边的 Morrison 小镇吃晚饭。看完开回 Arvada 约 30 分钟。",
       "tips": [],
       "links": [
         {
